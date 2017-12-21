@@ -20,7 +20,6 @@
     "inkdrop": ">=3.17.3 <4.0.0"
   },
   "dependencies": {
-    "core-decorators": "^0.20.0",
     "remark-parse": "^4.0.0",
     "remark-stringify": "^4.0.0",
     "remark-strip-html": "^1.0.0",
