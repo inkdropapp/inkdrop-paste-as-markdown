@@ -1,0 +1,40 @@
+{
+  "name": "paste-as-markdown",
+  "main": "./lib/index.js",
+  "version": "0.0.0",
+  "description": "Paste Markdown automatically converted from HTML copied on a browser",
+  "keywords": [
+    "markdown",
+    "turndown",
+    "to-markdown",
+    "remark"
+  ],
+  "repository": "https://github.com/inkdropapp/inkdrop-paste-as-markdown",
+  "author": "Takuya Matsuyama <hi@craftz.dog>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "dev": "babel src/ -s -d lib/ --watch"
+  },
+  "engines": {
+    "inkdrop": ">=3.17.3 <4.0.0"
+  },
+  "dependencies": {
+    "core-decorators": "^0.20.0",
+    "remark-parse": "^4.0.0",
+    "remark-stringify": "^4.0.0",
+    "remark-strip-html": "^1.0.0",
+    "to-markdown": "^3.1.1",
+    "unified": "^6.1.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "standard": "^10.0.3"
+  }
+}

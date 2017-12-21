@@ -1,0 +1,13 @@
+{
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "Paste as Markdown",
+          "command": "paste-as-markdown"
+        }
+      ]
+    }
+  ]
+}

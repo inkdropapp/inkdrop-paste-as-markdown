@@ -1,0 +1,5 @@
+{
+  ".CodeMirror": {
+    "cmd-alt-shift-v": "paste-as-markdown"
+  }
+}
