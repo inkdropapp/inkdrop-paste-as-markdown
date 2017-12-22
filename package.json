@@ -19,13 +19,7 @@
   "engines": {
     "inkdrop": ">=3.17.3 <4.0.0"
   },
-  "dependencies": {
-    "remark-parse": "^4.0.0",
-    "remark-stringify": "^4.0.0",
-    "remark-strip-html": "^1.0.0",
-    "to-markdown": "^3.1.1",
-    "unified": "^6.1.6"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.1",
