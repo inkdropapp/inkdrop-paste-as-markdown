@@ -1,5 +1,11 @@
 {
-  ".CodeMirror": {
+  ".platform-darwin .CodeMirror": {
     "cmd-alt-shift-v": "paste-as-markdown"
+  },
+  ".platform-linux .CodeMirror": {
+    "ctrl-alt-shift-v": "paste-as-markdown"
+  },
+  ".platform-win32 .CodeMirror": {
+    "ctrl-alt-shift-v": "paste-as-markdown"
   }
 }
