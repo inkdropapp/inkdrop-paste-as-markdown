@@ -11,7 +11,7 @@ ipm install paste-as-markdown
 
 ## Usage
 
-Press `cmd-alt-shift-v` or select "Plugins" → "Paste as Markdown" from menu to run this plugin's command `paste-as-markdown`.
+Press *cmd/ctrl + alt + shift + v* or select *"Plugins" → "Paste as Markdown"* from menu to run this plugin's command `paste-as-markdown`.
 It converts HTML into Markdown and paste it into the editor.
 For example, when you copy below HTML on your browser:
 
