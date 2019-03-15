@@ -1,13 +1,13 @@
 import { pasteHTML } from './paste-html'
 
 module.exports = {
-  activate () {
+  activate() {
     this.subscription = inkdrop.commands.add(document.body, {
       'paste-as-markdown': () => pasteHTML()
     })
   },
 
-  deactivate () {
+  deactivate() {
     this.subscription.dispose()
   }
 }

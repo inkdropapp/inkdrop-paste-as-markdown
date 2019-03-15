@@ -1,10 +1,10 @@
 import { clipboard } from 'electron'
 import { html2markdown } from 'inkdrop'
 
-export function pasteHTML () {
+export function pasteHTML() {
   const html = clipboard.readHTML()
   const md = html2markdown(html)
-  const cm = inkdrop.getActiveEditor().codeMirror
+  const { cm } = inkdrop.getActiveEditor()
   cm.replaceSelection(md)
   return true
 }
