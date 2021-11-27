@@ -5,7 +5,7 @@
       "submenu": [
         {
           "label": "Paste as Markdown",
-          "command": "paste-as-markdown"
+          "command": "paste-as-markdown:paste"
         }
       ]
     }
