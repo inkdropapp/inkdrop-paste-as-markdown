@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This plugin is now a built-in feature of Inkdrop. You don't need to install it anymore as of v5.6.0.
+
 # paste-as-markdown plugin for Inkdrop
 
 It enables you to paste HTML as Markdown from clipboard.
@@ -11,7 +14,7 @@ ipm install paste-as-markdown
 
 ## Usage
 
-Press *cmd/ctrl + alt + shift + v* or select *"Plugins" → "Paste as Markdown"* from menu to run this plugin's command `paste-as-markdown`.
+Press _cmd/ctrl + alt + shift + v_ or select _"Plugins" → "Paste as Markdown"_ from menu to run this plugin's command `paste-as-markdown`.
 It converts HTML into Markdown and paste it into the editor.
 For example, when you copy below HTML on your browser:
 
@@ -25,7 +28,6 @@ For example, when you copy below HTML on your browser:
 It will be pasted as:
 
 ```markdown
-*   list 1
-*   list 2
+- list 1
+- list 2
 ```
-
